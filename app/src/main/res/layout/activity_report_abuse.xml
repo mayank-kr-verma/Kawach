@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+tools:context="nitp.navi.kawach.report_abuse_activity"
+android:orientation="vertical">
+
+
+<LinearLayout
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/radiogrouplinearlayout_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/child_abuse_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#f5f5f5"
+                android:text="Child Abuse"
+                android:checked="false"
+                android:textColor="#f5f5f5"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/women_abuse_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#f5f5f5"
+                android:text="Women Abuse"
+                android:checked="false"
+                android:textColor="#f5f5f5"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </RadioGroup>
+
+</LinearLayout>
+
+    <LinearLayout
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/details_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="Details"
+            android:textColor="#f5f5f5"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/details_et"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:ems="10"
+            android:textColor="#fff"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/add_pic_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:text="Add Pic"
+        />
+    <Button
+        android:id="@+id/add_loc_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="15dp"
+        android:layout_below="@id/add_pic_btn"
+        android:layout_centerHorizontal="true"
+        android:text="Add location"
+        />
+    <Button
+        android:id="@+id/report_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/add_loc_btn"
+        android:textSize="15dp"
+        android:text="Report"
+        />
+</RelativeLayout>
+</LinearLayout>

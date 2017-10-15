@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="nitp.navi.kawach.about_activity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" What app does?"
+    android:layout_marginLeft="16dp"
+    android:textStyle="bold"
+    android:textSize="20dp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Kawach is an app that acts as a saviour for all the victims of abuse be it be a woman or a child. This is an app to empower the sections of society who are considered to be weak and vulnerable even today!!"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="8dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" How to use?"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:textStyle="bold"
+    android:textSize="20dp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="As soon as the alert button on the front page is pressed, a message with the person's current location,will be sent to the three contacts entered. Moreover any other person can report any kind of ill-behaviour with a child or a woman. The person can get location and take picture of the situation and submit it to nearest police station. The phone numbers(emergency) should be saved in settings to send message."
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="8dp"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" Credits"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:textStyle="bold"
+    android:textSize="20dp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" An app created for the OpenGovDataHack by:
+Team NA'VI--
+- Mayank Kumar
+- Abhishek Kumar
+- Akash Pandey
+- Aditi Roy"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="8dp" />
+
+</LinearLayout>
