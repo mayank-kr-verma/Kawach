@@ -3,7 +3,7 @@
 https://event.data.gov.in/challenges/opengovdatahack-patna/
 (link to the result)
 
-Kawach is an application on aimed to minimise crime against women by sending an alarming message with geolocation of victim to their trusted contacts.
+Kawach is an application aimed to minimise crime against women by sending an alarming message with geolocation of victim to their trusted contacts.
 Also it can be used to report any crime you happen to come across to nearest police station.
 
 It is a prototype only and hence not all the features work as of now.
